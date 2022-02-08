@@ -18,7 +18,7 @@ The above command returns JSON structured like this:
 }
  */
 const u = 'https://rest.coinapi.io/v1/exchangerate/';
-const key = 'E41F5872-FE2B-4F3E-BB0E-E89AD26522A3';
+const key = '74DA00E2-CE09-4DAC-BE05-516678B41DC6';
 
 class HttpCoinGet {
   Future<double> get(String from, String to, Function f) async {
